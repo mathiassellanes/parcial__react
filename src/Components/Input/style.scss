@@ -1,0 +1,13 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+
+  &__field {
+    background-color: #bfbfbf;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+  }
+}

@@ -1,0 +1,21 @@
+@import '../../utils/styles.scss';
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+
+  @include mobile {
+    width: 200px;
+  }
+
+  &__field {
+    height: 200px;
+    resize: none;
+    background-color: #bfbfbf;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+  }
+}

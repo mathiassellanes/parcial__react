@@ -1,0 +1,32 @@
+@import '../../utils/styles.scss';
+
+.property-adder {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  background-color: rgb(97, 64, 2);
+  gap: 10px;
+  width: max-content;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  height: 3%;
+
+  &__remove {
+    cursor: pointer;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    @include centerOnMobile;
+  }
+}

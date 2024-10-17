@@ -1,0 +1,41 @@
+@import '../../utils/styles.scss';
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    @include centerOnMobile;
+
+    &--filters {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+
+      @include centerOnMobile;
+    }
+  }
+
+  &__add {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+
+    @include centerOnMobile;
+  }
+
+  &__pets {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    @include centerOnMobile;
+  }
+}
